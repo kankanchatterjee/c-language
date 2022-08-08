@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x=printf("ineuron");
-    printf("%d",x);
+    float inr,usd;
+    printf("enter amount in usd");
+    scanf("%f",&inr);
+    printf("amount in usd is %f",inr*76.23);
     return 0;
 }
+

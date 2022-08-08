@@ -1,13 +1,14 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    int n,m;
+    int n;
     printf("enter a number");
     scanf("%d",&n);
-    printf("enter a digit");
-    scanf("%d",&m);
-    printf("%d",(n*10)+m);
+    printf("%d",n%10);
+    getch();
     return 0;
-}
 
+
+}
 
